@@ -34,6 +34,10 @@ if (!nounInput.value) {
 		errorInput.textContent = "Please don't leave me empty.";
     }
     
+    else if (!placeInput.value) {
+    errorInput.textContent = "Please don't leave me empty.";
+    }
+    
     else{
         	const story = "Once there was a " + noun + " named Jay, that was known to " + verb +"." + " He/she was " + adjective + " indeed, and lived at the one and only " + place + "."
 	storyP.textContent = story;
