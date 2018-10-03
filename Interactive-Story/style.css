@@ -1,0 +1,33 @@
+input {
+	margin-top: 2em;
+    margin-left: 2em;
+    text-align: center;
+    display:inline-block;
+
+}
+
+button{
+    color: greenyellow;
+    background-color: black;
+    
+}
+
+h1{
+    color: royalblue;
+    font-family: fantasy;
+}
+
+body{
+    background-color: darkseagreen;
+    color: white;
+    text-align: center;
+    
+}
+
+p{
+    color: black;
+}
+
+.error {
+    color: red;
+}
